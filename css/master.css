@@ -1,0 +1,85 @@
+﻿/* Master */
+@font-face {
+    font-family: 'CarnivaleeFreakshowRegular';
+    src: url('/css/webfontkit/carnevalee_freakshow-webfont.eot');
+    src: url('/css/webfontkit/carnevalee_freakshow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/webfontkit/carnevalee_freakshow-webfont.ttf') format('truetype'),
+         url('/css/webfontkit/carnevalee_freakshow-webfont.svg#CarnivaleeFreakshowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: 11px/1.5 'Book Antiqua', 'Palatino', 'Liberation Sans', FreeSans, sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+    margin: 2px 10px 0 10px;
+}
+
+body h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Master */
+
+/* Menu */
+body .menu {
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin: 0 0 15px 0;
+}
+
+body .menu a,
+body .menu span {
+    font-size: 20px;
+    font-family: 'Book Antiqua';
+    color: #000000;
+}
+
+body.home .menu a,
+body.home .menu span {
+    color: #ffffff;
+}
+
+body .menu a:hover {
+    color: #ef8800;
+}
+
+body.home .menu a:hover {
+    color: #ef8800;
+}
+
+body .menu div.language {
+    float: left;
+    width: 164px;
+    margin-left: 2px;
+}
+
+body .menu div.sections {
+    float: right;
+    width: 350px;
+}
+
+body .menu div.contact {
+    float: left;
+    margin-left: 20px;
+}
+
+body .menu div.language a {
+    margin: 0 0 0 4px;
+    font-size: 18px;
+}
+
+body .menu div.language span {
+    margin: 0 2px 0 2px;
+}
+
+body .menu div.sections {
+    float: right;
+}
+
+body .menu div.sections a {
+    margin: 0 4px 0 10px;
+}
+/* Menu */

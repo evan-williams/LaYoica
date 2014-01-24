@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Cabalgatas Lago Puelo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+        <link rel="stylesheet" type="text/css" href="/css/master.css?v=4" />
+        <!--[if gte IE 6 ]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie.css" /><![endif]-->
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+        <script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.cookie.js"></script>  
+        <script type="text/javascript" src="/js/global.js?v=4"></script> 
+	</head>
+	<body class="photos">
+        <div class="menu"></div>
+        <div id="thumbs">
+            <img src="/img/photos/1_thumb.jpg?v=1" alt="/img/photos/1.jpg?v=1" class="selected" />
+            <img src="/img/photos/2_thumb.jpg?v=1" alt="/img/photos/2.jpg?v=1" />
+            <img src="/img/photos/3_thumb.jpg?v=1" alt="/img/photos/3.jpg?v=1" />
+            <img src="/img/photos/4_thumb.jpg?v=1" alt="/img/photos/4.jpg?v=1" />
+            <img src="/img/photos/5_thumb.jpg?v=1" alt="/img/photos/5.jpg?v=1" />
+            <img src="/img/photos/6_thumb.jpg?v=1" alt="/img/photos/6.jpg?v=1" />
+            <img src="/img/photos/7_thumb.jpg?v=1" alt="/img/photos/7.jpg?v=1" />
+            <img src="/img/photos/8_thumb.jpg?v=1" alt="/img/photos/8.jpg?v=1" />
+            <img src="/img/photos/9_thumb.jpg?v=1" alt="/img/photos/9.jpg?v=1" />
+            <img src="/img/photos/10_thumb.jpg?v=1" alt="/img/photos/10.jpg?v=1" />
+            <img src="/img/photos/11_thumb.jpg?v=1" alt="/img/photos/11.jpg?v=1" />
+            <img src="/img/photos/12_thumb.jpg?v=1" alt="/img/photos/12.jpg?v=1" />
+            <img src="/img/photos/13_thumb.jpg?v=1" alt="/img/photos/13.jpg?v=1" />
+            <img src="/img/photos/14_thumb.jpg?v=1" alt="/img/photos/14.jpg?v=1" />
+            <img src="/img/photos/15_thumb.jpg?v=1" alt="/img/photos/15.jpg?v=1" />
+            <img src="/img/photos/16_thumb.jpg?v=1" alt="/img/photos/16.jpg?v=1" />
+            <img src="/img/photos/17_thumb.jpg?v=1" alt="/img/photos/17.jpg?v=1" />
+            <img src="/img/photos/18_thumb.jpg?v=1" alt="/img/photos/18.jpg?v=1" />
+            <img src="/img/photos/19_thumb.jpg?v=1" alt="/img/photos/19.jpg?v=1" />
+            <img src="/img/photos/20_thumb.jpg?v=1" alt="/img/photos/20.jpg?v=1" />
+            <img src="/img/photos/21_thumb.jpg?v=1" alt="/img/photos/21.jpg?v=1" />
+            <img src="/img/photos/22_thumb.jpg?v=1" alt="/img/photos/22.jpg?v=1" />
+            <img src="/img/photos/23_thumb.jpg?v=1" alt="/img/photos/23.jpg?v=1" />
+            <img src="/img/photos/24_thumb.jpg?v=1" alt="/img/photos/24.jpg?v=1" />
+            <img src="/img/photos/25_thumb.jpg?v=1" alt="/img/photos/25.jpg?v=1" />
+            <img src="/img/photos/26_thumb.jpg?v=1" alt="/img/photos/26.jpg?v=1" />
+            <img src="/img/photos/27_thumb.jpg?v=1" alt="/img/photos/27.jpg?v=1" />
+            <img src="/img/photos/28_thumb.jpg?v=1" alt="/img/photos/28.jpg?v=1" />
+            <img src="/img/photos/29_thumb.jpg?v=1" alt="/img/photos/29.jpg?v=1" />
+            <img src="/img/photos/30_thumb.jpg?v=1" alt="/img/photos/30.jpg?v=1" />
+            <img src="/img/photos/31_thumb.jpg?v=1" alt="/img/photos/31.jpg?v=1" />
+            <img src="/img/photos/32_thumb.jpg?v=1" alt="/img/photos/32.jpg?v=1" />
+            <img src="/img/photos/33_thumb.jpg?v=1" alt="/img/photos/33.jpg?v=1" />
+        </div>
+        <img src="/img/photos/1.jpg" id="fullres"></img>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#thumbs img").click(thumbClicked);
+            });
+
+            var thumbClicked = function (e) {
+                $("#thumbs img.selected").removeClass("selected");
+                $(this).addClass("selected");
+                var path = $(this).attr("alt");
+                $("#fullres").fadeOut(200, function() {
+                    $("#fullres").attr("src", path);
+                    $("#fullres").fadeIn(100);
+                });
+            };
+        </script>
+	</body>
+</html>

@@ -1,0 +1,331 @@
+﻿/* Master */
+@font-face {
+    font-family: 'CarnivaleeFreakshowRegular';
+    src: url('/css/webfontkit/carnevalee_freakshow-webfont.eot');
+    src: url('/css/webfontkit/carnevalee_freakshow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/webfontkit/carnevalee_freakshow-webfont.ttf') format('truetype'),
+         url('/css/webfontkit/carnevalee_freakshow-webfont.svg#CarnivaleeFreakshowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: 11px/1.5 'Book Antiqua', 'Palatino', 'Liberation Sans', FreeSans, sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+    background-image: url('/img/Photos/home.jpg');
+    background-position: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+body h1 {
+    font-size: 22px;
+}
+
+/* Master */
+
+/* Menu */
+body .menu {
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-bottom: 1px solid #240302;
+    margin: 0 0 15px 0;
+}
+
+body .menu a {
+    font-size: 24px;
+    font-family:  'CarnivaleeFreakshowRegular';
+    color: #7e2507;
+}
+
+body .menu a:hover {
+    color: #cf3d0c;
+}
+
+body .menu div.language {
+    float: left;
+}
+
+body .menu div.language a {
+    margin: 0 0 0 4px;
+    font-size: 18px;
+}
+
+body .menu div.language span {
+    margin: 0 2px 0 2px;
+}
+
+body .menu div.sections {
+    float: right;
+}
+
+body .menu div.sections a {
+    margin: 0 4px 0 10px;
+}
+/* Menu */
+
+
+/* Home */
+body.home div.photo {
+    display: block;
+    float: left;
+    margin: 0 0 10px 80px;
+    width: 800px;
+    height: 500px;
+    
+    border: 3px solid #240302; 
+    background-image: url('/img/main_home.jpg');
+    
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 4px 4px 8px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, .25);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, .25);
+}
+
+
+body.home div.words {
+    display: none;
+}
+
+body.home div.titlebox {
+    position: relative;
+    top: -30px;
+    left: 50px;
+    
+    display: block;
+    float: left;
+    clear: both;
+    
+    width: 700px;
+    height: 240px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+
+body.home .txt-home-title {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
+    color: #fa6700;
+    font-size: 48px;
+    font-family:  'CarnivaleeFreakshowRegular';
+    margin: 4px;
+}
+
+body.home .txt-home-subtitle {
+    font-size: 28px;
+    font-family: 'Bodoni MT';
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    margin: 4px;
+}
+
+body.home .txt-home-paragraph {
+    height: 40px;
+    font-family: 'Bodoni MT';
+    font-size: 20px;
+    font-style: italic;
+    margin: 4px;
+}
+
+body.home div.keypoints {
+    display: block;
+    float: left;
+    width: 960px;
+    text-align: center;
+}
+
+body.home div.keypoints div {
+    font-size: 22px;
+    color: #051e09;
+    list-style-type: none;
+    width: auto;
+    padding: 10px 200px 10px 200px;
+}
+
+/* Home */
+
+/* About */
+body.about img {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #240302;
+}
+
+body.about div.bio {
+    display: block;
+    float: left;
+    width: 760px;
+    margin: 0 0 0 10px;
+}
+
+body.about div.bio h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+body.about div.bio p {
+    font-size: 16px;
+}
+
+body.about div.ivan,
+body.about div.liza {
+    height: 220px;
+}
+
+/* About */
+
+/* Contact */
+
+body.contact h1 {
+   margin-bottom: 10px;
+}
+
+body.contact div.contacts li  {
+    margin: 0 0 10px 0;
+}
+
+body.contact div.contacts li span,
+body.contact div.contacts li a  {
+    font-size: 20px;
+}
+
+body.contact div.contacts li span  {
+    display: block;
+    clear: left;
+}
+
+body.contact div.contacts li .head  {
+    font-weight: bold;
+}
+
+/* Contact */
+
+/* Prices */
+
+body.prices table.pricetable {
+    font-size: 20px;
+}
+
+body.prices table.pricetable th {
+    color: #342c29;
+}
+
+body.prices table.pricetable th,
+body.prices table.pricetable td {
+    padding: 4px 20px 4px 0;
+    text-align: left;
+}
+
+body.prices table.pricetable th.txt-prices-route,
+body.prices table.pricetable td.map {
+    display: none;
+}
+
+body.prices div.txt-prices-other {
+  font-size: 16px;
+  margin: 20px 0 0 0;
+}
+
+
+/* Prices */
+
+/* Photos */
+
+body.photos #thumbs,
+body.accommodation #thumbs {
+    float: left;
+    width: 100px;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+body.photos #thumbs img,
+body.accommodation #thumbs img {
+    border: 1px solid #000000;
+    width: 75px;
+    height: 75px;
+    margin: 0 2px 2px 0;
+}
+
+body.photos #thumbs img:hover,
+body.accommodation #thumbs img:hover {
+    cursor: pointer;
+}
+
+body.photos #thumbs img.selected,
+body.accommodation #thumbs img.selected {
+    border: 2px solid #d50404;
+}
+
+body.photos #fullres,
+body.accommodation #fullres {
+    float: left;
+    margin: 0 0 40px 10px;
+    max-height: 700px;
+    max-width: 700px;
+    border: 2px solid #000000;
+}
+
+/* Photos */
+
+/* Accommodation */
+
+body.accommodation h2.txt-accommodation-tariffs,
+body.accommodation h2.txt-accprices-photos {
+   font-size: 20px; 
+}
+
+body.accommodation h2.txt-accommodation-tariffs {
+   margin: 20px 0 0 0;
+}
+
+
+body.accommodation ul li {
+   font-size: 18px; 
+}
+
+body.accommodation table.accompricetable {
+    width: 900px;
+    font-size: 20px;
+}
+
+body.accommodation table.accompricetable th {
+    color: #342c29;
+}
+
+body.accommodation table.accompricetable th {
+    text-align: left;
+}
+
+/* Accommodation */
+
+
+/* Location */
+
+body.location div.localmap {
+    display: block;
+    float: left;
+    width: 900px;
+    height: 569px;
+    
+    border: 1px solid #000000;
+    background-image: url('/img/localmap.jpg');
+}
+
+body.location div.areamap {
+    display: block;
+    float: left;
+    margin: 20px 0 10px 0;
+    width: 900px;
+    height: 1166px;
+    
+    border: 1px solid #000000;
+    background-image: url('/img/areamap.jpg');
+}
+
+/* Location */

@@ -1,0 +1,54 @@
+﻿body.cabins .cabin-section {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 20px 0 20px 0;
+}
+
+body.cabins div.main-photo-box {
+    width: 100%;
+}
+
+body.cabins div.main-photo {
+    width: 700px;
+    max-width: 700px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+body.cabins div.main-photo img {
+    width: 700px;
+}
+
+body.cabins div.photo-thumbnails {
+    margin: 10px auto;
+    overflow-x: scroll;
+}
+
+body.cabins div.photo-thumbnails img {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+body.cabins div.photo-thumbnails img.selected {
+    border: 2px solid #7b0202;
+}
+
+body.cabins div.photo-thumbnails img:hover {
+    cursor: pointer;
+}
+
+body.cabins div.prices {
+    width: 100%
+}
+
+body.cabins div.prices table {
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+body.cabins div.prices table tr {
+    border-top: 1px solid black;
+}
