@@ -1,19 +1,41 @@
 ﻿body.cabins {
-    background-image: url('/img/Photos/leaf-bg.jpg');
+    background-image: url('/img/leaf_tall.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+
+body.cabins div.cabin-header {
+    width: 100%;
+    margin: 20px auto 40px auto;
+    text-align: center;
+}
+
+body.cabins .cabin-header .txt-cabins-title {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
+    color: #ef8800;
+    font-size: 50px;
+    font-family: 'Monotype Corsiva';
+    margin: 4px;
+}
+
+body.cabins .cabin-header .txt-cabins-subtitle {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Book Antiqua';
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    margin: 4px;
 }
 
 body.cabins h2 {
-    color: #d77a00;
+    color: #D3AA74;
     font-size: 40px;
     font-family: 'Monotype Corsiva';
     margin: 4px;
 }
 
 body.cabins h3 {
-    color: #d77a00;
-    font-size: 30px;
+    color: #D3AA74;
+    font-size: 36px;
     font-family: 'Monotype Corsiva';
     margin: 4px;
 }
@@ -25,6 +47,12 @@ body.cabins .cabin-section {
     padding: 20px 0 40px 0;
 }
 
+body.cabins div.separator {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
 body.cabins div.main-photo-box {
     width: 100%;
 }
@@ -32,7 +60,7 @@ body.cabins div.main-photo-box {
 body.cabins div.main-photo {
     width: 700px;
     max-width: 700px;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     margin: 10px auto;
 
     -moz-border-radius: 10px;
@@ -57,7 +85,7 @@ body.cabins div.photo-thumbnails {
 }
 
 body.cabins div.photo-thumbnails img {
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     margin: 5px;
 
     -moz-border-radius: 4px;
@@ -88,5 +116,7 @@ body.cabins div.prices table {
 }
 
 body.cabins div.prices table tr {
-    border-top: 1px solid black;
+    border-top: 1px solid #ffffff;
+    font-size: 19px;
+    color: #ffffff;
 }

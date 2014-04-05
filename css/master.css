@@ -34,11 +34,6 @@ body .menu a,
 body .menu span {
     font-size: 20px;
     font-family: 'Book Antiqua';
-    color: #000000;
-}
-
-body.home .menu a,
-body.home .menu span {
     color: #ffffff;
 }
 
