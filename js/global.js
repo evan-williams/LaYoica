@@ -47,10 +47,10 @@ var setLanguageValues = function () {
     
     $(selectorText).each(function () {
         // Home
-        setTextIfLang(this, currentLanguage, 'txt-home-title', dataSpanish, 'Cabañas La Yoica');
-        setTextIfLang(this, currentLanguage, 'txt-home-title', dataEnglish, 'Cabins La Yoica');
+        setTextIfLang(this, currentLanguage, 'txt-home-title', dataSpanish, 'La Yoica');
+        setTextIfLang(this, currentLanguage, 'txt-home-title', dataEnglish, 'La Yoica');
 
-        setTextIfLang(this, currentLanguage, 'txt-home-subtitle', dataSpanish, 'Cabalgatas Patagónicas - Parque Nacional Lago Puelo');
+        setTextIfLang(this, currentLanguage, 'txt-home-subtitle', dataSpanish, 'Cabañas - Reserva Natural');
         setTextIfLang(this, currentLanguage, 'txt-home-subtitle', dataEnglish, 'Patagonian Horse Treks - Lago Puelo National Park');
 
         setTextIfLang(this, currentLanguage, 'txt-home-paragraph', dataSpanish, '"Una insuperable forma de internarse en el paisaje cordillerano para apreciar de cerca la deslumbrante naturaleza de esta región andino patagónica."');
