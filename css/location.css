@@ -24,3 +24,7 @@ body.location #map-canvas {
     background-color: #CCC;
     margin: 0 auto;
 }
+
+body.location div.gm-style {
+    border: 3px solid black;
+}
