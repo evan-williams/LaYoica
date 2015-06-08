@@ -1,8 +1,7 @@
 ﻿body.cabins {
-    background-color: #251F0B;
-    background-image: url(http://www.transparenttextures.com/patterns/wood.png);
+    background-color: #fdfffb;
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat
 }
 
 body.cabins div.cabin-header {
@@ -12,7 +11,6 @@ body.cabins div.cabin-header {
 }
 
 body.cabins .cabin-header .txt-cabins-title {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
     color: #9AC771;
     font-size: 50px;
     font-family: 'Monotype Corsiva';
@@ -20,22 +18,21 @@ body.cabins .cabin-header .txt-cabins-title {
 }
 
 body.cabins .cabin-header .txt-cabins-subtitle {
-    color: #ffffff;
+    color: #3e3b3b;
     font-size: 24px;
     font-family: 'Book Antiqua';
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
     margin: 4px;
 }
 
 body.cabins h2 {
-    color: #D3AA74;
+    color: #97774d;
     font-size: 40px;
     font-family: 'Monotype Corsiva';
     margin: 4px;
 }
 
 body.cabins h3 {
-    color: #D3AA74;
+    color: #97774d;
     font-size: 36px;
     font-family: 'Monotype Corsiva';
     margin: 4px;
@@ -61,7 +58,7 @@ body.cabins div.main-photo-box {
 body.cabins div.main-photo {
     width: 700px;
     max-width: 700px;
-    border: 1px solid #ffffff;
+    border: 1px solid #3e3b3b;
     margin: 10px auto;
 
     -moz-border-radius: 6px;
@@ -86,7 +83,7 @@ body.cabins div.photo-thumbnails {
 }
 
 body.cabins div.photo-thumbnails img {
-    border: 1px solid #ffffff;
+    border: 1px solid #3e3b3b;
     margin: 5px;
 
     -moz-border-radius: 4px;
@@ -117,7 +114,7 @@ body.cabins div.prices table {
 }
 
 body.cabins div.prices table tr {
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #3e3b3b;
     font-size: 19px;
-    color: #ffffff;
+    color: #3e3b3b;
 }

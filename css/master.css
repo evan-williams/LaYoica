@@ -38,7 +38,16 @@ body .menu a,
 body .menu span {
     font-size: 20px;
     font-family: 'Book Antiqua';
+}
+
+body .menu a,
+body .menu span {
     color: #ffffff;
+}
+
+body.light .menu a,
+body.light .menu span {
+    color: #3e3b3b;
 }
 
 body .menu a:hover {
