@@ -1,7 +1,7 @@
 ﻿body.location {
-    background-image: url('/img/misty-road2.jpg');
-    background-color: beige;
-    background-size: 100%;
+background-color: #ffffd6;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     background-repeat: repeat;
 }
 
@@ -12,7 +12,7 @@ body.location div.location-header {
 }
 
 body.location h1 {
-    color: #A2FF4C;
+    color: #97774d;
     font-size: 40px;
     font-family: 'Monotype Corsiva';
     margin: 4px;

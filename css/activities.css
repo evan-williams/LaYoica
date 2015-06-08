@@ -1,15 +1,14 @@
 ﻿body.activities {
-background-image: url('/img/leaf2.jpg');
-/*background-image: url(http://www.transparenttextures.com/patterns/xv.png);*/
+background-color: #ffffd6;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-light.png);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    background-size: 100%;
     background-repeat: repeat;
 }
 
 
 body.activities .txt-activities-header {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
-    color: #9AC771;
+    color: #97774d;
     font-size: 50px;
     font-family: 'Monotype Corsiva';
     margin: 4px;

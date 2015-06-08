@@ -1,7 +1,8 @@
 ﻿body.cabins {
-    background-color: #fdfffb;
-    background-size: 100%;
-    background-repeat: no-repeat
+background-color: #ffffd6;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-repeat: repeat;
 }
 
 body.cabins div.cabin-header {
@@ -46,9 +47,12 @@ body.cabins .cabin-section {
 }
 
 body.cabins div.separator {
-    width: 100%;
+    width: 70%;
     margin: 40px auto;
     text-align: center;
+    height: 2px;
+    border-top: 1px dotted #97774d;
+    border-bottom: 1px solid #97774d;
 }
 
 body.cabins div.main-photo-box {
