@@ -1,0 +1,58 @@
+﻿body.home {
+    background-image: url('/img/home.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #191E22;
+
+	div.words {
+		display: none;
+	}
+
+	div.titlebox {
+		position: relative;
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		height: 240px;
+		margin: 100px auto 10px auto;
+		text-align: center;
+	}
+
+	.txt-home-title {
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.85);
+		color: #A2FF4C;
+		font-size: 90px;
+		height: 100px;
+		font-family: 'Monotype Corsiva';
+		margin: 4px;
+	}
+
+	.txt-home-subtitle {
+		color: #ffffff;
+		font-size: 36px;
+		font-family: 'Book Antiqua';
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+		margin: 4px;
+	}
+
+	.txt-home-paragraph {
+		height: 40px;
+		color: #ffffff;
+		font-family: 'Book Antiqua';
+		font-size: 24px;
+		font-style: italic;
+		margin: 4px;
+	}
+
+	.txt-home-language {
+		a, span {
+			height: 30px;
+			color: #A2FF4C;
+			font-family: 'Book Antiqua';
+			font-size: 24px;
+			font-style: italic;
+			margin: 4px;
+		}
+	}
+}

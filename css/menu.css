@@ -1,0 +1,19 @@
+﻿body .menu {
+  line-height: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin: 0 0 15px 0; }
+  body .menu div.contact {
+    float: left;
+    margin-left: 20px; }
+  body .menu div.sections {
+    float: right; }
+    body .menu div.sections a {
+      margin: 0 4px 0 10px; }
+  body .menu a, body .menu span {
+    font-size: 20px;
+    font-family: 'Book Antiqua';
+    color: #ffffff; }
+
+body.light .menu a, body.light .menu span {
+  color: #3e3b3b; }
