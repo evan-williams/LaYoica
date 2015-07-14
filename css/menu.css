@@ -7,7 +7,8 @@
     float: left;
     margin-left: 20px; }
   body .menu div.sections {
-    float: right; }
+    float: right;
+    margin-right: 20px; }
     body .menu div.sections a {
       margin: 0 4px 0 10px; }
   body .menu a, body .menu span {
