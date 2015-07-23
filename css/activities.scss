@@ -1,16 +1,42 @@
-body.activities {
-    background-color: #fffff0;
-    //background-image: url('http://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
-    background-repeat: repeat;
-	width: 100%;
-	text-align: center;
-	overflow-x: hidden;
+@import "theme";
 
-    .txt-activities-header {
-        color: #9AC771;
-        font-size: 50px;
-        font-family: 'Monotype Corsiva';
-        margin: 4px;
+.activities {
+
+    .activities-header {
+        width: 66%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .content {
+        width: 70%;
+        margin: 20px auto 20px auto;
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+
+        .photo-thumbnails {
+            margin: 10px auto;
+
+            img {
+                max-height: 400px;
+            }
+        }
+    }
+
+    .links {
+        width: 50%;
+        margin: 20px auto 20px auto;
+        text-align: center;
+
+        ul {
+
+            li {
+                text-align: left; 
+            }
+        }
     }
 
 	  div.content {

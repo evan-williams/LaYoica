@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "footer.css",
+  "sources": ["footer.scss","_theme.scss"],
+  "names": [],
+  "mappings": "AAEA,QACI,WCDS,QDET,WAAY,WACZ,SAAU,MACV,KAAM,EACN,OAAQ,EACR,OAAQ,KACR,MAAO,MAAX,QAAQ,GAGA,MAAO,MACP,YAAa,KAEb,MCVa,SDUrB,QAAQ,GAAG,GAGC,QAAS"
+}

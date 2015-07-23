@@ -1,0 +1,22 @@
+﻿@import "theme";
+
+.footer {
+    background: $dark-slate;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+
+    ul {
+        float: right;
+        line-height: 50px;
+
+        color: $font-inverse-color;
+
+        li {
+            padding: 0 18px;
+        }
+    }
+}

@@ -4,8 +4,9 @@ $(document).ready(function () {
     
     var mapOptions = {
         center: new google.maps.LatLng(-42.008988, -71.56557),
-        zoom: 12,
-        mapTypeId: google.maps.MapTypeId.HYBRID
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
+        
     };
     
     var map = new google.maps.Map(mapCanvas, mapOptions);

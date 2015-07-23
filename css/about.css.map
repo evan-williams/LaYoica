@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "about.css",
+  "sources": ["about.scss","_theme.scss"],
+  "names": [],
+  "mappings": "AAEA,OACI,iBAAkB,QAElB,kBAAmB,OACtB,MAAO,KACP,WAAY,QAAb,OAAO,SAGC,MAAO,IACP,OAAQ,oBACR,WAAY,QAApB,OAAO,SAAS,EAGP,WAAY,MACrB,OAAO,SAAS,kBAGP,OAAQ,WAAjB,OAAO,SAAS,kBAAkB,IAGxB,OAAQ,SACR,UAAW,MACX,WAAY"
+}

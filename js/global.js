@@ -1,5 +1,6 @@
 ﻿var selectorText = '.text';
 var selectorMenu = '.menu';
+var selectorFooter = '.footer';
 var selectorLanguageLinks = '.language a';
 
 var dataSpanish = 'sp';
@@ -7,14 +8,24 @@ var dataEnglish = 'en';
 
 $(document).ready(function () {
     insertMenu();
+    insertFooter();
     attachEvents();
     setLanguageValues();
 });
 
 var insertMenu = function () {
     $.get('/bits/menu.htm', null, function (result) {
-        $(selectorMenu).html(result);
+        var $menu = $(selectorMenu);
+        $menu.html(result);
+        setActiveLink($menu);
         setLanguageValues();
+    });
+};
+
+var insertFooter = function () {
+    $.get('/bits/footer.htm', null, function (result) {
+        var $footer = $(selectorFooter);
+        $footer.html(result);
     });
 };
 
@@ -210,5 +221,17 @@ var setLanguageValues = function () {
 var setTextIfLang = function (element, currentLanguage, textName, language, text) {
     if (currentLanguage == language && $(element).hasClass(textName)) {
         $(element).text(text);
+    }
+};
+
+var setActiveLink = function ($menu) {
+    var path = window.location.pathname;
+    var trimmedPath = path.replace('/', '').replace('.htm', '');
+    $menu.find('li.active').removeClass('active');
+
+    if (trimmedPath === '') {
+        $menu.find('[data-path=home]').addClass('active');
+    } else {
+        $menu.find('[data-path=' + trimmedPath + ']').addClass('active');
     }
 };
