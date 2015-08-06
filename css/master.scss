@@ -92,3 +92,17 @@ ul.inline {
     font-family: 'Merriweather', serif;
     font-style: italic;
 }
+
+
+/* Mobile phone styles */
+@media all and (max-width: 600px) {
+
+    img {
+        display: block;
+        width: 100% !important;
+    }
+
+    p {
+        width: 80% !important;
+    }
+}
