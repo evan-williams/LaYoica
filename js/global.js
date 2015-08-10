@@ -1,10 +1,12 @@
 ﻿var selectorText = '.text';
 var selectorMenu = '.menu';
 var selectorFooter = '.footer';
+var selectorAnalytics = '.analytics';
 
 $(document).ready(function () {
     insertMenu();
     insertFooter();
+    insertAnalytics();
 });
 
 var insertMenu = function () {
@@ -31,4 +33,11 @@ var setActiveLink = function ($menu) {
     var page = $('body').attr('class');
     $menu.find('li.active').removeClass('active');
     $menu.find('[data-path=' + page + ']').addClass('active');
+};
+
+var insertAnalytics = function () {
+    $.get('/bits/analytics.htm', null, function (result) {
+        var $analytics = $(selectorAnalytics);
+        $analytics.html(result);
+    });
 };

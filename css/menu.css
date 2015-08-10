@@ -32,7 +32,9 @@ nav {
     .menu .nav-items li a {
       color: inherit; }
     .menu .nav-items li:hover {
-      background: white; }
+      background: #fff; }
     .menu .nav-items li.active {
       color: #f4f4f4;
       background: #00b8ff; }
+
+/*# sourceMappingURL=menu.css.map */

@@ -6,7 +6,7 @@ html {
 body {
   font: 16px/1.5 'Montserrat', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #111111;
+  color: #111;
   margin: 0 0 50px; }
 
 .hide {
@@ -59,7 +59,7 @@ ul.inline li {
 .footnotes {
   padding: 20px; }
   .footnotes .footnote {
-    color: #666666;
+    color: #666;
     font-size: 0.8em; }
 
 .subheader {
@@ -74,3 +74,5 @@ ul.inline li {
 
   p {
     width: 80% !important; } }
+
+/*# sourceMappingURL=master.css.map */

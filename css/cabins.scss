@@ -76,14 +76,18 @@
 			}
 		}
 
-        .equipment { 
-            width: 52%;
-            margin-top: 10px;
-            margin-left: 35%;
-            text-align: left!important;
+        &.equipment {
+            height: 400px;
 
-            li {
+            ul { 
+                width: 52%;
+                margin-top: 10px;
+                margin-left: 35%;
                 text-align: left!important;
+
+                li {
+                    text-align: left!important;
+                }
             }
         }
     } 

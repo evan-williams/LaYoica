@@ -47,12 +47,14 @@
       text-align: center; }
     .cabins .cabin-section .prices tr {
       border-top: 1px solid #3e3b3b; }
-  .cabins .cabin-section .equipment {
-    width: 52%;
-    margin-top: 10px;
-    margin-left: 35%;
-    text-align: left !important; }
-    .cabins .cabin-section .equipment li {
+  .cabins .cabin-section.equipment {
+    height: 400px; }
+    .cabins .cabin-section.equipment ul {
+      width: 52%;
+      margin-top: 10px;
+      margin-left: 35%;
       text-align: left !important; }
+      .cabins .cabin-section.equipment ul li {
+        text-align: left !important; }
 
 /*# sourceMappingURL=cabins.css.map */
