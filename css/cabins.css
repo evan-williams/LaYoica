@@ -47,3 +47,12 @@
       text-align: center; }
     .cabins .cabin-section .prices tr {
       border-top: 1px solid #3e3b3b; }
+  .cabins .cabin-section .equipment {
+    width: 52%;
+    margin-top: 10px;
+    margin-left: 35%;
+    text-align: left !important; }
+    .cabins .cabin-section .equipment li {
+      text-align: left !important; }
+
+/*# sourceMappingURL=cabins.css.map */

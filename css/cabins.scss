@@ -75,5 +75,16 @@
 				border-top: 1px solid #3e3b3b;
 			}
 		}
+
+        .equipment { 
+            width: 52%;
+            margin-top: 10px;
+            margin-left: 35%;
+            text-align: left!important;
+
+            li {
+                text-align: left!important;
+            }
+        }
     } 
 }
