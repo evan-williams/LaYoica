@@ -36,6 +36,10 @@ var setActiveLink = function ($menu) {
 };
 
 var insertAnalytics = function () {
+    var hostname = document.location.hostname;
+    if (hostname.indexOf("www.layoica.com") === -1)
+        return;
+    
     $.get('/bits/analytics.htm', null, function (result) {
         var $analytics = $(selectorAnalytics);
         $analytics.html(result);

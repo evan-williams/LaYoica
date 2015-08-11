@@ -1,0 +1,11 @@
+﻿.contact .contact-header {
+  width: 100%;
+  margin: 20px auto 20px auto;
+  text-align: center; }
+  .contact .contact-header span {
+    font-size: 16px; }
+.contact .details {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px 0 40px 0; }
