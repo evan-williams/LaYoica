@@ -77,16 +77,23 @@
 		}
 
         &.equipment {
-            height: 400px;
+            height: auto;
 
-            ul { 
-                width: 52%;
-                margin-top: 10px;
-                margin-left: 35%;
-                text-align: left!important;
+            .equipment-container {
+                width: 600px;
+                margin: 0 auto 0 auto;
+                background-color: #ececec;
 
-                li {
+                ul { 
+                    margin-top: 10px;
                     text-align: left!important;
+
+                    li {
+                        text-align: left!important;
+                        display: list-item;
+                        list-style-position: inside;
+                        padding: 2px 4px 2px 20px;
+                    }
                 }
             }
         }
