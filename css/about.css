@@ -1,4 +1,4 @@
-.about {
+﻿.about {
   background-color: #fffff0;
   background-repeat: repeat;
   width: 100%;
@@ -16,5 +16,8 @@
         margin: 5px 10px;
         max-width: 600px;
         max-height: 600px; }
-
-/*# sourceMappingURL=about.css.map */
+    .about .content .govt {
+      margin: 20px 0 20px 0;
+      padding: 20px 0 20px 0; }
+      .about .content .govt ul {
+        text-align: center; }
