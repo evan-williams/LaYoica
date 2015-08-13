@@ -1,9 +1,8 @@
-.cabins .cabin-header {
+﻿.cabins .cabin-header {
   width: 66%;
   text-align: center;
   margin: auto; }
-.cabins .column-left,
-.cabins .column-right {
+.cabins .column-left, .cabins .column-right {
   float: left; }
 .cabins .column-left {
   width: 56%;
@@ -27,7 +26,7 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: background-image .3s; }
+    transition: background-image 0.3s; }
   .cabins .cabin-section .photo-thumbnails {
     margin: 10px auto; }
     .cabins .cabin-section .photo-thumbnails img {
@@ -48,11 +47,12 @@
     .cabins .cabin-section .prices tr {
       border-top: 1px solid #3e3b3b; }
   .cabins .cabin-section.equipment {
-    height: auto; }
+    height: auto;
+    display: list-item; }
     .cabins .cabin-section.equipment .equipment-container {
       width: 600px;
       margin: 0 auto 0 auto;
-      background-color: #ececec; }
+      background-color: #ededed; }
       .cabins .cabin-section.equipment .equipment-container ul {
         margin-top: 10px;
         text-align: left !important; }
@@ -61,5 +61,3 @@
           display: list-item;
           list-style-position: inside;
           padding: 2px 4px 2px 20px; }
-
-/*# sourceMappingURL=cabins.css.map */
