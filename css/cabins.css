@@ -13,20 +13,20 @@
 .cabins .cabin-section {
   width: 100%;
   float: left;
-  height: 550px;
   clear: both;
   margin: 10px auto 40px;
   text-align: center;
-  position: relative;
   background: #c3c3c3; }
   .cabins .cabin-section .main-photo-box {
-    height: 100%;
     max-width: 810px; }
   .cabins .cabin-section .main-photo {
-    height: 100%;
+    height: auto;
+    width: 100%;
+    min-width: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: background-image 0.3s; }
+    transition: background-image 0.3s;
+    float: left; }
   .cabins .cabin-section .photo-thumbnails {
     margin: 10px auto; }
     .cabins .cabin-section .photo-thumbnails img {
@@ -36,19 +36,17 @@
       .cabins .cabin-section .photo-thumbnails img.selected {
         opacity: 1; }
   .cabins .cabin-section .prices {
-    position: absolute;
-    bottom: 0;
     margin: 0 auto;
     background-color: #ececec; }
     .cabins .cabin-section .prices table {
-      width: 500px;
-      margin: 10px auto;
+      margin: 10px auto 0 auto;
       text-align: center; }
     .cabins .cabin-section .prices tr {
       border-top: 1px solid #3e3b3b; }
   .cabins .cabin-section.equipment {
     height: auto;
-    display: list-item; }
+    display: list-item;
+    font-size: 14px; }
     .cabins .cabin-section.equipment .equipment-container {
       width: 600px;
       margin: 0 auto 0 auto;

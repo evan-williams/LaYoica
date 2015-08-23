@@ -26,23 +26,23 @@
     .cabin-section {
         width: 100%;
         float: left;
-        height: 550px;
         clear: both;
         margin: 10px auto 40px;
         text-align: center;
-        position: relative;
         background: #c3c3c3;
 
 		.main-photo-box {
-            height: 100%;
             max-width: 810px;
 		}
 
 		.main-photo {
-			height: 100%;
+			height: auto;
+			width: 100%;
+			min-width: 200px;
             background-repeat: no-repeat;
             background-size: cover;
             transition: background-image .3s;
+			float: left;
 		}
 
 		.photo-thumbnails {
@@ -60,14 +60,11 @@
 		}
 
 		.prices {
-            position: absolute;
-            bottom: 0;
             margin: 0 auto;
             background-color: #ececec;
 
 			table {
-				width: 500px;
-				margin: 10px auto;
+				margin: 10px auto 0 auto;
 				text-align: center; 
 			}
 
@@ -79,6 +76,7 @@
         &.equipment {
             height: auto;
 			display: list-item;
+			font-size: 14px;
 
             .equipment-container {
                 width: 600px;
